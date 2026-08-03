@@ -2,7 +2,7 @@ from __future__ import annotations
 import argparse, hashlib, shutil, zipfile
 from pathlib import Path
 ROOT=Path(__file__).resolve().parent
-BUNDLES=('released_results.zip','models.zip')
+BUNDLES=('experiments.zip','released_results.zip','models.zip')
 def sha256(p):
  h=hashlib.sha256();
  with p.open('rb') as f:
@@ -17,7 +17,8 @@ def safe_extract(zp):
 def main():
  ap=argparse.ArgumentParser(); ap.add_argument('--clean',action='store_true'); a=ap.parse_args()
  if a.clean:
-  shutil.rmtree(ROOT/'experiments'/'results',ignore_errors=True); shutil.rmtree(ROOT/'environment',ignore_errors=True)
+  shutil.rmtree(ROOT/'experiments',ignore_errors=True)
+  shutil.rmtree(ROOT/'environment',ignore_errors=True)
  for b in BUNDLES: safe_extract(ROOT/b)
  print('Artifact data prepared.')
 if __name__=='__main__': main()
