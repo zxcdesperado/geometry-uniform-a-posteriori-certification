@@ -14,7 +14,7 @@ This is the reviewer-facing minimal package. It intentionally excludes manuscrip
 python run.py
 ```
 
-The command automatically extracts `released_results.zip` and `models.zip`, then checks the main benchmark, 90-case reference study, 270 RT2 certificates, certificate gate, 450-output official GINO transfer, nine machine-enclosed GINO cases, L-shaped nonmanufactured certificate, paired cost benchmark, machine-enclosed endpoint suites, and local audit.
+The command automatically extracts `experiments.zip`, `released_results.zip`, and `models.zip`, then checks the main benchmark, 90-case reference study, 270 RT2 certificates, certificate gate, 450-output official GINO transfer, nine machine-enclosed GINO cases, L-shaped nonmanufactured certificate, paired cost benchmark, machine-enclosed endpoint suites, and local audit.
 
 ## Recompute
 
@@ -34,8 +34,7 @@ python run.py --recompute-machine
 
 ## Contents
 
-- `experiments/`: scientific implementations only;
-- `experiments/configs/`: fixed configurations;
+- `experiments.zip`: scientific implementations and fixed configurations; extracted automatically by `run.py`;
 - `released_results.zip`: raw rows and summaries used by the paper;
 - `models.zip`: only checkpoints required for fixed-model verification;
 - `verify_results.py`: compact standard-library verification;
