@@ -1,0 +1,12 @@
+Generated numerical data, tables, figures, and machine-readable result files in
+this archive are made available under the Creative Commons Attribution 4.0
+International License (CC BY 4.0).
+
+Suggested citation:
+Xiaochuan Zhang, "Exact Galerkin Correction and Geometry-Uniform A Posteriori
+Certification of Neural-Operator Predictions for Symmetric Elliptic Problems,"
+manuscript submitted to the Journal of Scientific Computing, 2026.
+
+The software source files are governed separately by the license in LICENSE.
+Third-party components remain under their respective licenses as documented in
+THIRD_PARTY_NOTICES.md.

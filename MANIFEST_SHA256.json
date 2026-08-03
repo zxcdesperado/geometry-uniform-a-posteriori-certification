@@ -1,0 +1,264 @@
+{
+  "files": [
+    {
+      "path": "DATA_LICENSE.txt",
+      "bytes": 616,
+      "sha256": "8c89aed2828bbf07d88189d7d146066b64e2efbb408e988e01cff5a0e1356076"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1835,
+      "sha256": "4c0b470be60fd7dea128caa45cbbe6bd211a7b8f4b6550c5273c4cd75b565e36"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1877,
+      "sha256": "e1b7df2e1a5891044c922e71f66506b2681f551359227429883fa88b2aa4b241"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 1298,
+      "sha256": "402ad86f8cd32b3e5ba2a40bdc42cebe5aa05e23d88cf921cab3cdd671369ad6"
+    },
+    {
+      "path": "experiments/analyze_certificate_robustness.py",
+      "bytes": 3538,
+      "sha256": "fc9d60d9fe53b2f670dcc048b0d3dc8c6ab894d458a945bbc6e7799bb14cacd7"
+    },
+    {
+      "path": "experiments/arb_interval_backend.py",
+      "bytes": 3214,
+      "sha256": "cb2b55d23cebf76753874b8f4418b6f36a7d625c0c475a65e4047d9d7ab07ede"
+    },
+    {
+      "path": "experiments/configs/cost_benchmark_base_config.json",
+      "bytes": 2208,
+      "sha256": "2d99f64527ab3d3ebbf95d8959cd3915d687d91461255297378425a16440b347"
+    },
+    {
+      "path": "experiments/configs/delta_local_comparison_prespecified_2026-08-01.json",
+      "bytes": 510,
+      "sha256": "b6cfbeb1378c16656e910f9ca648e56a994f1b8886287162a0dd05750eab3f3f"
+    },
+    {
+      "path": "experiments/configs/elasticity_machine_strict_affine_suite_2026-08-01.json",
+      "bytes": 638,
+      "sha256": "88f2516ff540a8bd7e2819f5ea441e4be217838d744b7401b42c4936e498938b"
+    },
+    {
+      "path": "experiments/configs/independent_forcing_operator_prespecified_2026-08-02.json",
+      "bytes": 894,
+      "sha256": "0ea4f86f81fe1bdf946033f6e11b414e8cddae03c66972ba6a569fc85a856dee"
+    },
+    {
+      "path": "experiments/configs/official_gino_machine_rt2_prespecified_2026-08-01.json",
+      "bytes": 827,
+      "sha256": "331017b8d6319cb9834b7965a9de3eac7e17b477693e5f90005be3b424a87851"
+    },
+    {
+      "path": "experiments/configs/official_gino_nondegenerate_prespecified_2026-08-01.json",
+      "bytes": 2480,
+      "sha256": "6c725022df153e9707dab54648e6d9f4a60db40a2b9dddacf7843e0bd90abf5c"
+    },
+    {
+      "path": "experiments/configs/official_neuraloperator_gino_prespecified_2026-08-01.json",
+      "bytes": 1545,
+      "sha256": "746d6b1b434d75940aebb1b89cb4f931b2a2c19ce6ff24c8a802988f5e01b809"
+    },
+    {
+      "path": "experiments/configs/optimized_end_to_end_cost_headline_confirmation_2026-08-01.json",
+      "bytes": 2339,
+      "sha256": "bbff0a0e5eba2905ce37b7ab974ae8f08e77838cdb5a0131a76e08ddf8f7a1f3"
+    },
+    {
+      "path": "experiments/configs/poisson_machine_strict_curved_3d_suite_2026-08-01.json",
+      "bytes": 433,
+      "sha256": "57da08797019abd369a6f50f43c4ac7737c158afb3eed34ac679c0c40be16ad4"
+    },
+    {
+      "path": "experiments/configs/poisson_machine_strict_curved_suite_2026-08-01.json",
+      "bytes": 380,
+      "sha256": "5a602189bde2f71ad3d427c2c33b809bb75421e8c5e56f58d4e61b98aaa6ca54"
+    },
+    {
+      "path": "experiments/delta_local_comparison_audit.py",
+      "bytes": 5511,
+      "sha256": "b59d301ff2dfecf196cc3240ad128f5186e9aacc5a6fe4dedcd7f9b6de248162"
+    },
+    {
+      "path": "experiments/elasticity_machine_strict_affine_suite.py",
+      "bytes": 4428,
+      "sha256": "c9623e75f0203a7c29b7168a249992e98ccb2f28f1c9e9d54d8fdc90b82be595"
+    },
+    {
+      "path": "experiments/elasticity_machine_strict_mixed_interval.py",
+      "bytes": 14198,
+      "sha256": "dc4ec85c031cbe284ecfe1b696c4daf236dcc77620692b52ce036c25b9c0441d"
+    },
+    {
+      "path": "experiments/faithful_gino_operator.py",
+      "bytes": 7739,
+      "sha256": "e7e1bd6c55ed8ae1002f413ffd7cf960840dd95e86324a8eacef4af75ef5e79a"
+    },
+    {
+      "path": "experiments/generate_rt_linear_stability_audit.py",
+      "bytes": 2740,
+      "sha256": "a83185daf3fe1af27396dc2cac7e5c16d358fa5e0afdac7cc73aee2964a92c8f"
+    },
+    {
+      "path": "experiments/higher_order_flux_majorant.py",
+      "bytes": 27191,
+      "sha256": "0ef4018d4e582ca808eb7659d04d171d978e1c568919e424a402d12ef5fee030"
+    },
+    {
+      "path": "experiments/independent_flux_audit.py",
+      "bytes": 60234,
+      "sha256": "98acc33ade8c529870e4753595ff4949d81232fc8271b353c1784968ae07243d"
+    },
+    {
+      "path": "experiments/independent_forcing_multicheckpoint_rt2_audit.py",
+      "bytes": 10972,
+      "sha256": "1a7d54d91fafbcc94d9ba85072cb6bed94b5c659e070460ed752e8a523c76c42"
+    },
+    {
+      "path": "experiments/independent_forcing_operator_pipeline.py",
+      "bytes": 19839,
+      "sha256": "a17dae1ce95e049bcbdeda641d6a0af6bd801766643d4c3f8951467e68f215d4"
+    },
+    {
+      "path": "experiments/independent_forcing_paired_statistics.py",
+      "bytes": 2067,
+      "sha256": "91c3f979562b85553d6e37dd854936a30b7a13bfe361dc089bd90c890b95922d"
+    },
+    {
+      "path": "experiments/independent_forcing_rt_reference_audit.py",
+      "bytes": 29990,
+      "sha256": "00415c34c01f1dac6cb942b19cb254e2a48a3ee7d0d009d05aa352716ebe4640"
+    },
+    {
+      "path": "experiments/machine_enclosed_native_rt2.py",
+      "bytes": 27000,
+      "sha256": "8840295b57afcd7e04b64d53fa6741f9bbde6e7619c926ad2a260bf98e90abbe"
+    },
+    {
+      "path": "experiments/multicheckpoint_certificate_gate_sweep.py",
+      "bytes": 2562,
+      "sha256": "3fdb26f471c2af053c8f1e07b6f283ebbea910273eb32fed4ef5eb99ba46ff66"
+    },
+    {
+      "path": "experiments/native_rt_witness.py",
+      "bytes": 9395,
+      "sha256": "7b382028a88f1a766fdb404913f542bff1cf2f689d2c52b72ee530acd6063116"
+    },
+    {
+      "path": "experiments/nonmanufactured_lshape_reference_certificate.py",
+      "bytes": 18900,
+      "sha256": "c3166e6a0871f67afc1108d826d2dcb456e177fab5f4e0b5420630050cc4e08e"
+    },
+    {
+      "path": "experiments/official_gino_machine_rt2_audit.py",
+      "bytes": 7839,
+      "sha256": "763509dc9e54b6998dd85c0c17b498d6df447ba88b602e090dd19337eccd2dcf"
+    },
+    {
+      "path": "experiments/official_neuraloperator_gino_audit.py",
+      "bytes": 15461,
+      "sha256": "202b7b5723c15bc03501c24380b7a2a660395e07d2e0b2adfa42eb66746db219"
+    },
+    {
+      "path": "experiments/optimized_end_to_end_cost_benchmark.py",
+      "bytes": 24696,
+      "sha256": "96e98c8ef073df7caa9552c22d4b9ea51c0d372cc0065eb19993fb1765c43063"
+    },
+    {
+      "path": "experiments/optimized_rt0_majorant.py",
+      "bytes": 30799,
+      "sha256": "dc7aec1d8c167b29b3e04bdd8fd700ed9d5104cd3ed04aa6dc779f9d777c903d"
+    },
+    {
+      "path": "experiments/poisson_deformed_square_coeff_sweep.py",
+      "bytes": 14011,
+      "sha256": "f6b995dbbb3891010c3a3516febce16336a730000b1828156402a8ddf02dc7a7"
+    },
+    {
+      "path": "experiments/poisson_deformed_square_pullback_p1.py",
+      "bytes": 14030,
+      "sha256": "69cefcb6d61c2db36d61eb10e815d8e2e5d5652c2a9b9d98687618883d834d30"
+    },
+    {
+      "path": "experiments/poisson_gino_style_operator_certification.py",
+      "bytes": 13649,
+      "sha256": "eba6c482557911958289efd96911350fd14f8b0794133144d2c6b9b6cf95c150"
+    },
+    {
+      "path": "experiments/poisson_grid_fno_operator_certification.py",
+      "bytes": 13889,
+      "sha256": "26dadbbf4ad48f0e57187f9baffe9deb27764ce6a0b698abc93b72681e0cdbdb"
+    },
+    {
+      "path": "experiments/poisson_machine_strict_curved_3d_interval.py",
+      "bytes": 7318,
+      "sha256": "909d0a3b9250acc51075d58a5d38fc5575d9e943aaf165a7240533cfa1cd431f"
+    },
+    {
+      "path": "experiments/poisson_machine_strict_curved_interval.py",
+      "bytes": 6299,
+      "sha256": "a7374507068462c1598f493f3f89363b6af9d87eaf4aeac6755d444070c706c0"
+    },
+    {
+      "path": "experiments/poisson_machine_strict_interval.py",
+      "bytes": 7363,
+      "sha256": "64429451384387b1a20ae9a63cacec9d5cf2416ff740e6534c491e93f8343b57"
+    },
+    {
+      "path": "experiments/poisson_parametric_mlp_certification.py",
+      "bytes": 19413,
+      "sha256": "e42c1d9816d9c7450f83d37d36e4ced4944dd5efd91401cc09206349fe884ff8"
+    },
+    {
+      "path": "experiments/trained_operator_rt_majorant.py",
+      "bytes": 26287,
+      "sha256": "7f677872a6a3b26b1e583ed32555dda744c34490e6d7263c3cd139546b9c505d"
+    },
+    {
+      "path": "experiments/true_gino_large_geometry_audit.py",
+      "bytes": 22275,
+      "sha256": "8003acf8cec34ca17e55098c5ada8e4b42255e6efa7391ee7c497102319875f9"
+    },
+    {
+      "path": "models.zip",
+      "bytes": 4965700,
+      "sha256": "4c9616f0929d05118cdb8c23740198007657c5fc7b19dc79cb609a1ff8b8ed7e"
+    },
+    {
+      "path": "released_results.zip",
+      "bytes": 216179,
+      "sha256": "e605a5c899e195cbf136971bc153a96e819b4a7fe1974549db3c7256e9af6564"
+    },
+    {
+      "path": "requirements-core.txt",
+      "bytes": 103,
+      "sha256": "1ab12953d72c3f69d7c48930c8606346130251b5f4dc57823114f92707306a7f"
+    },
+    {
+      "path": "requirements-extended.txt",
+      "bytes": 1037,
+      "sha256": "420dbf19d18204e8acccf2e03c2b2309fd5a1be90422f9052bd7772957e95ce6"
+    },
+    {
+      "path": "run.py",
+      "bytes": 1932,
+      "sha256": "335ff409ddcc64c2358aeb6dba7e6ed18e19c76ef4de297e92d434f43bee9f21"
+    },
+    {
+      "path": "setup_artifact.py",
+      "bytes": 905,
+      "sha256": "bde3e3b66a332950e6a965206cd647feb7912f5f1f75e2e944800ab70bad05b9"
+    },
+    {
+      "path": "verify_results.py",
+      "bytes": 4037,
+      "sha256": "a04cbaed7eac446a8af030fbbd2e2ee7e255565b7a98587c1cd686f23232c490"
+    }
+  ]
+}
